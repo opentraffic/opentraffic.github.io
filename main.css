@@ -1,0 +1,16 @@
+
+body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-image: url(/img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
