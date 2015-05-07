@@ -15,3 +15,51 @@ body {
   background-position: center;
 }
 
+.links {
+  font-size: 16px;
+  color: #00b594;
+  display: inline-block;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #02866e;
+}
+
+body {
+  font-size: 18px;
+  color: rgb(7, 27, 40);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 720px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+body {
+  margin: auto;
+}
+
+.hero-image {
+  overflow: hidden;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  height: 800px;
+}
+
+footer {
+  background-color: #00b594;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  padding: 40px;
+  margin-top: 40px;
+}

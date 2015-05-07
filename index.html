@@ -6,7 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="google-site-verification" content="VnCoolbgBQhiXKvd1pfDmWX7P416iAmaPy8UK_XGbvM">
   
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300">
+
   <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -19,6 +23,26 @@
   </script>
 </head>
 <body>
-  <div class="logo" title="OpenTraffic.io"></div>
+  <div class="container logo">
+    <div class="row">
+       <a class="links" href="https://github.com/opentraffic"><i class="fa fa-fw fa-github"></i>Project</a>
+       <a class="links" href="https://github.com/opentraffic"><i class="fa fa-fw fa-envelope"></i>Contact Us</a>
+    </div>
+   </div>
+   <div class="container">
+    <p>Real-time and historical traffic speed data is a critical input for most transportation and transport analysis applications. Currently traffic speed data is absent from OpenStreetMap (OSM), undermining its value as basemap for transport applications. Commercial data sets are available for some locations, however, licensing terms and prices are prohibitive for many potential applications. And many areas of the world, particularly developing countries do not have commercial traffic data sets.</p>
+  </div>
+   <div class="hero-image" style="background-image: url(/img/process.png)">
+  </div>
+
+  <div class="container">
+    <p>This project aims to develop a non-commercial global traffic speed data set linked to OpenStreetMap and built on open source software. Speed data are derived from GPS probe data pooled from fleet operators and app and device makers. The GPS location data is converted into OSM segment-linked speed measurements and strippped of any identifying information about the source and/or journey. The speed data is archived to support real-time and historical analysis applications.</p>
+
+    <p>As currently conceived the traffic pool will be operated by a non-profit entity with a mission to improve access to traffic data and with the responsibility for coordinating activities of pool stakeholders. The exact structure of this entity will be determined in collaboration with stakeholders.</p>
+
+   </div> 
+
+    <footer>&copy; 2015 Conveyal</footer>
+  
 </body>
 </html>
