@@ -21,13 +21,15 @@ body {
   display: inline-block;
   padding-right: 20px;
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
-a:hover {
+.links:hover {
   color: #02866e;
+  text-decoration: none;
 }
 
-body {
+p {
   font-size: 18px;
   color: rgb(7, 27, 40);
   font-family: 'Open Sans', sans-serif;
@@ -42,6 +44,7 @@ body {
 
 body {
   margin: auto;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .hero-image {
@@ -56,10 +59,33 @@ body {
 
 footer {
   background-color: #00b594;
+  font-family: 'Open Sans', sans-serif;
   background-size: cover;
   text-align: center;
   color: #fff;
   font-size: 14px;
   padding: 40px;
   margin-top: 40px;
+}
+
+.email-label {
+  font-size: 25px;
+  line-height: 2em;
+}
+
+.email-input {
+  border: none;
+}
+
+.btn {
+  background-color: #02866e;
+  color: #fff; 
+}
+
+.btn:hover {
+  background: #35d8b9;
+}
+
+button {
+  display: inline-block;
 }
