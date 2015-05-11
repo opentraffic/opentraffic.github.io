@@ -16,12 +16,13 @@ body {
 }
 
 .links {
-  font-size: 16px;
+  font-size: 18px;
   color: #00b594;
   display: inline-block;
   padding-right: 20px;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 .links:hover {
@@ -77,13 +78,14 @@ footer {
   border: none;
 }
 
-.btn {
+.btn-green {
   background-color: #02866e;
   color: #fff; 
 }
 
-.btn:hover {
-  background: #35d8b9;
+.btn-green:hover {
+  background: #016754;
+  color: #fff;
 }
 
 button {
