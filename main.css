@@ -3,7 +3,20 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
-  margin: 0;
+  margin: auto;
+  font-size: 18px;
+  color: rgb(7, 27, 40);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42857143em;
+}
+
+p {
+  font-size: 18px;
+  color: rgb(7, 27, 40);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42857143em;
 }
 
 .links li{
@@ -24,15 +37,7 @@ body {
 .links:hover {
   color: #02866e;
   text-decoration: none;
-}
-
-p {
-  font-size: 18px;
-  color: rgb(7, 27, 40);
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  line-height: 1.42857143em;
-}
+} 
 
 .container {
   max-width: 720px;
@@ -40,10 +45,6 @@ p {
   margin: auto;
 }
 
-body {
-  margin: auto;
-  font-family: 'Open Sans', sans-serif;
-}
 .logo {
   overflow: hidden;
   position: relative;
