@@ -62,7 +62,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   display: block;
-  height: 800px;
+  height: 1300px;
 }
 
 footer {
@@ -85,7 +85,7 @@ footer {
   border: none;
 }
 
-.btn-green {
+.btn-green, .btn-green:visited  {
   background-color: #12b697;
   color: #fff; 
   font-family: 'Open Sans';
