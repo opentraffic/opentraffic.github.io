@@ -119,3 +119,7 @@ button {
 .caption-padding {
   height: 30px;
 }
+
+img {
+  margin: auto;
+}
