@@ -37,7 +37,7 @@ p {
 .links:hover {
   color: #02866e;
   text-decoration: none;
-} 
+}
 
 .container {
   max-width: 720px;
@@ -87,7 +87,7 @@ footer {
 
 .btn-green, .btn-green:visited  {
   background-color: #12b697;
-  color: #fff; 
+  color: #fff;
   font-family: 'Open Sans';
   font-size: 16px;
   font-weight: 400;
@@ -118,6 +118,7 @@ button {
 
 .caption-padding {
   height: 30px;
+  clear: both;
 }
 
 img {

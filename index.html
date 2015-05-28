@@ -44,80 +44,92 @@
           </ul>
       </div>
      </div>
-      <div class="logo" style="background-image: url(/img/logo.png)">
+      <div class="logo" style="background-image:">
+        <img src="img/logo_vertical.png" width="300" class="img-responsive" alt="Responsive image"/>
     </div>
      <div class="container">
       <div class="caption-padding"></div>
 
-      <p><strong>The OpenTraffic is a free, global traffic speed data set linked to <a href="https://www.openstreetmap.org/" class="links">OpenStreetMap</a> built using open-source software.</strong></p>
+      <p><strong>The OpenTraffic is a free, global traffic speed data set linked to <a href="https://www.openstreetmap.org/" class="links">OpenStreetMap</a> using open source software.</strong></p>
 
-      <p>OpenTraffic operates nonprofit organization coordinating open source software development and data collection activities by individuals and organizations across the transport sector.</p>
+      <p>OpenTraffic operates as a nonprofit organization coordinating open source software development and data collection activities by individuals and organizations across the transport sector.</p>
 
       <p>We are building a consortium that links connected vehicles and location-based mobile services with software and data storage platforms to annonymize and share this data as traffic statics. We also support the development of analysis and routing tools that enable cities, businesses, and individuals to make use of this data. </p>
 
       <div class="caption-padding"></div>
 
+      <img src="/img/process.png" width="980" align="center" class="img-responsive" alt="Responsive image"/>
+
+
         <h2>How it works</h2>
 
-        <p>Our data pool connects anyone with real-time or archived location data to processing technology, data storage, and routing and analysis applications.</p>
+        <p>OpenTraffic connects anyone with real-time or archived location data to processing technology, data storage, and routing and analysis applications.</p>
 
         <p>Conscious of location data privacy, we allow contributors to share anonymized traffic speed statistcs from derived from GPS  data without disclosing location information. In return, data contributors help build a global traffic speed data set that can be used in routing and analysis applications.</p>
 
-        <div class="caption-padding"></div>
-</div>
-        <img src="/img/process.png" width="980" align="center" class="img-responsive" alt="Responsive image"/>
+        <p> The OpenTraffic platform is comprised of several components to make it easy to share and use traffic data:</p>
 
-<div class="container">
-
-  <div class="caption-padding"></div>
-
-      <p> The OpenTraffic data pool is comprised of several components to make the process seamless and efficient:</p>
-
-      <div class="data-caption"><h3>GPS Probes</h3>
-        Any real-time or historical stream of GPS data can be converted to annonymized traffic statistics
-      </div>
-
-
-      <div class="data-caption"><h3>Traffic Engine</h3>
-      </div>
-
-
-      <div class="data-caption"><h3>Data Pool</h3>
-      </div>
-
-
-
-      <h2>Get Involved</h2>
-      <p>We are working with stakeholders including invested fleet operators, app developers, and government entities, to develop a powerful, anonymized data set to support real-time and analysis applications.</p>
-      </p>
-
+      <div class="caption-padding"></div>
       <img class="data-image" src="/img/taxi.png"/>
-
-      <div class="data-caption"><h3>Do you collect location data?<h3>
-        <p> Join our fleet of data operators and send us completely anonymized data via smartphone GPS using OpenTraffic's <a class="links" href="##bottom of page##">Traffic Engine</a>. In return, you will immediately be able to use our collective data set for routing trips!<br><br>
-        <button class="btn btn-green" type="button" href="mailto:contact@conveyal.com">Join Us</a></button>
-        </p>
-      </div>
-
-       <div class="caption-padding"></div>
-
-      <img class="data-image" src="/img/developer.png"/>
-
-      <div class="data-caption"><h3>Do you need traffic data for your transport app?<h3>
-        <p> Join our fleet of data operators and send us completely anonymized data via smartphone GPS using OpenTraffic's <a class="links" href="##bottom of page##">Traffic Engine</a>. In return, you will immediately be able to use our collective data set for routing trips!<br><br>
-        <button class="btn btn-green" type="button" href="mailto:contact@conveyal.com">Join Us</a></button>
-        </p>
+      <div class="data-caption"><h3>GPS Probes</h3>
+        <p> GPS probe data can be generated from a variety of sources, including mobile applications or fixed GPS hardware. GPS data can be processed in real-time or archived and transmitted for batch analysis. The OpenTraffic platform has a variety of <a href="https://github.com/opentraffic">open source tools</a> to help you load your GPS data from existing sources or connect to <a href="http://aws.amazon.com/kinesis/">Amazon AWS Kinesis</a> streams to manage real-time flows of any size.  </p>
       </div>
 
       <div class="caption-padding"></div>
+      <img class="data-image" src="/img/traffic_engine.png"/>
+      <div class="data-caption"><h3>Traffic Engine</h3>
+        <p>GPS data is linked to the OpenStreetMap network via Traffic Engine. Data is converted locations to roadway speed observations and annomyized before being aggregated. As open source software you control where Traffic Engine is deployed, allowing full control over GPS trace data.</p>
+      </div>
 
-      <img class="data-image" src="/img/city.png"/>
+      <div class="caption-padding"></div>
+      <img class="data-image" src="/img/open_traffic.png"/>
+      <div class="data-caption"><h3>Data Pool</h3>
+        <p>Once annoymized traffic statistics are added to the global OpenTraffic "data pool." By pooling data many different data sources are merged together to provide a seamless global data set for free use by any application.</p>
+      </div>
 
-      <div class="data-caption"><h3>Do you need traffic data for your city?<h3>
+
+      <div class="caption-padding"></div>
+
+      <h2>Get Involved</h2>
+
+      <p>We are working with stakeholders including invested fleet operators, app developers, and government entities, to develop a powerful, anonymized data set to support real-time and analysis applications.</p>
+      </p>
+
+       <div class="caption-padding"></div>
+
+
+      <img class="data-image" src="/img/open_street_map.png"/>
+      <div class="data-caption"><h3>Do you need traffic data for your transport app?<h3>
+
+        <p> Join our fleet of data operators and send us completely anonymized data via smartphone GPS using OpenTraffic's <a class="links" href="##bottom of page##">Traffic Engine</a>. In return, you will immediately be able to use our collective data set for routing trips!<br><br>
+
+        <button class="btn btn-green" type="button" href="#">Lea</a></button>
+        </p>
+      </div>
+
+
+             <div class="caption-padding"></div>
+
+
+       <img class="data-image" src="/img/truck.png"/>
+
+      <div class="data-caption"><h3>Do you collect traffic data?<h3>
         <p> Join our fleet of data operators and send us completely anonymized data via smartphone GPS using OpenTraffic's <a class="links" href="##bottom of page##">Traffic Engine</a>. In return, you will immediately be able to use our collective data set for routing trips!<br><br>
         <button class="btn btn-green" type="button" href="mailto:contact@conveyal.com">Join Us</a></button>
         </p>
       </div>
+
+             <div class="caption-padding"></div>
+
+
+      <img class="data-image" src="/img/city.png"/>
+      <div class="data-caption"><h3>Do you need traffic data for your city?<h3>
+
+        <p> Join our fleet of data operators and send us completely anonymized data via smartphone GPS using OpenTraffic's <a class="links" href="##bottom of page##">Traffic Engine</a>. In return, you will immediately be able to use our collective data set for routing trips!<br><br>
+        <button class="btn btn-green" type="button" href="mailto:contact@conveyal.com">Join Us</a></button>
+        </p>
+      </div>
+
 
       <h2>About OpenTraffic</h2>
 
