@@ -1,171 +1,169 @@
-  <!DOCTYPE html>
-  <html lang="en-US">
-  <head>
-    <title>OpenTraffic</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="google-site-verification" content="VnCoolbgBQhiXKvd1pfDmWX7P416iAmaPy8UK_XGbvM">
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>OpenTraffic</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="google-site-verification" content="VnCoolbgBQhiXKvd1pfDmWX7P416iAmaPy8UK_XGbvM">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300">
-   <!-- Standard Favicon -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@conveyal">
+  <meta property="og:title" content="OpenTraffic">
+  <meta property="og:description" content="OpenTraffic is a free, global traffic speed data set linked to OpenStreetMap built with open source software.">
+  <meta property="og:image" content="http://opentraffic.io/img/logo_vertical.png">
+  <meta property="og:url" content="http://opentraffic.io">
+
   <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
   <link rel="shortcut icon" href="/img/favicon.ico">
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300">
+  <link rel="stylesheet" href="/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/main.css">
 
-<!-- For iPhone 4 Retina display: -->
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
-    <link rel="stylesheet" href="/bootstrap.min.css">
-    <link rel="stylesheet" href="/main.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-45854426-7', 'auto');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <ul class="col-sm-12 links">
 
-    ga('create', 'UA-45854426-7', 'auto');
-    ga('send', 'pageview');
-    </script>
-  </head>
-  <body>
-        <script src="http://code.jquery.com/jquery.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+          <li>
+            <a class="links" href="#about">About</a>
+          </li>
 
+          <li class="pull-right">
+            <a class="links" href="https://github.com/opentraffic"><i class="fa fa-fw fa-github"></i>Code</a>
+          </li>
+          <li class="pull-right">
+            <a class="links" href="mailto:info@opentraffic.io"><i class="fa fa-fw fa-envelope" style="padding-right:5px;"></i>Contact Us</a>
+          </li>
+        </ul>
+    </div>
+   </div>
+    <div class="logo" style="background-image:">
+      <img src="img/logo_vertical.png" width="300" class="img-responsive" alt="Responsive image"/>
+  </div>
+   <div class="container">
+    <div class="caption-padding"></div>
+
+    <p><strong>OpenTraffic is a free, global traffic speed data set linked to <a href="https://www.openstreetmap.org/" class="links">OpenStreetMap</a> built with open source software.</strong></p>
+
+    <p>Traffic speed data is a critical input to many transportation related applications. Fortunately many users who need speed data also produce the inputs necessary to create annonmyized traffic statistics.</p>
+
+    <p>OpenTraffic provides the space and tools to share traffic statistics from connected vehicles and mobile services. We support the development of analysis and routing tools that enable cities, businesses, and individuals to make use of this data.</p>
+
+    <div class="caption-padding"></div>
+  </div>
+
+    <img src="/img/process.png" width="980" align="center" class="img-responsive" alt="Responsive image"/>
 
     <div class="container">
-      <div class="row">
-          <ul class="col-sm-12 links">
 
-            <li>
-              <a class="links" href="#about">About</a>
-            </li>
+      <h2>How it Works</h2>
 
-            <li class="pull-right">
-              <a class="links" href="https://github.com/opentraffic"><i class="fa fa-fw fa-github"></i>Code</a>
-            </li>
-            <li class="pull-right">
-              <a class="links" href="mailto:info@opentraffic.io"><i class="fa fa-fw fa-envelope" style="padding-right:5px;"></i>Contact Us</a>
-            </li>
-          </ul>
-      </div>
-     </div>
-      <div class="logo" style="background-image:">
-        <img src="img/logo_vertical.png" width="300" class="img-responsive" alt="Responsive image"/>
-    </div>
-     <div class="container">
-      <div class="caption-padding"></div>
+      <p>OpenTraffic connects anyone with real-time or archived GPS location data to processing technology, data storage, and routing and analysis applications.</p>
 
-      <p><strong>OpenTraffic is a free, global traffic speed data set linked to <a href="https://www.openstreetmap.org/" class="links">OpenStreetMap</a> built with open source software.</strong></p>
+      <p>Location data privacy is paramount. We allow contributors to share anonymized traffic speed statistcs from derived GPS  data without disclosing individuals' location information. In return, data contributors help build a global traffic speed data set that can be used in routing and analysis applications.</p>
 
-      <p>Traffic speed data is a critical input to many transportation related applications. Fortunately many users who need speed data also produce the inputs necessary to create annonmyized traffic statistics.</p>
+      <p> The OpenTraffic platform is comprised of several components to make it easy to share and use traffic data:</p>
 
-      <p>OpenTraffic provides the space and tools to share traffic statistics from connected vehicles and mobile services. We support the development of analysis and routing tools that enable cities, businesses, and individuals to make use of this data.</p>
-
-      <div class="caption-padding"></div>
+    <div class="caption-padding"></div>
+    <img class="data-image" src="/img/taxi.png"/>
+    <div class="data-caption"><h3>GPS Probes</h3>
+      <p> GPS probe data can be generated from a variety of sources, including mobile applications or fixed GPS hardware. GPS data can be processed in real-time or archived and transmitted for batch analysis. The OpenTraffic platform has a variety of <a href="https://github.com/opentraffic">open source tools</a> to help you load your GPS data from existing sources or connect to <a href="http://aws.amazon.com/kinesis/">Amazon AWS Kinesis</a> streams to manage real-time flows of any size.  </p>
     </div>
 
-      <img src="/img/process.png" width="980" align="center" class="img-responsive" alt="Responsive image"/>
+    <div class="caption-padding"></div>
+    <img class="data-image" src="/img/traffic_engine.png"/>
+    <div class="data-caption"><h3>Traffic Engine</h3>
+      <p>GPS data is linked to the OpenStreetMap network via Traffic Engine. Data is converted from GPS locations to roadway speed observations and anonymized before being aggregated. As open source software, you control where Traffic Engine is deployed, allowing full control over GPS trace data. Simply install Traffic Engine and load your GPS data to start generating traffic data.</p>
+    </div>
 
-      <div class="container">
-
-        <h2>How it Works</h2>
-
-        <p>OpenTraffic connects anyone with real-time or archived GPS location data to processing technology, data storage, and routing and analysis applications.</p>
-
-        <p>Location data privacy is paramount. We allow contributors to share anonymized traffic speed statistcs from derived GPS  data without disclosing individuals' location information. In return, data contributors help build a global traffic speed data set that can be used in routing and analysis applications.</p>
-
-        <p> The OpenTraffic platform is comprised of several components to make it easy to share and use traffic data:</p>
-
-      <div class="caption-padding"></div>
-      <img class="data-image" src="/img/taxi.png"/>
-      <div class="data-caption"><h3>GPS Probes</h3>
-        <p> GPS probe data can be generated from a variety of sources, including mobile applications or fixed GPS hardware. GPS data can be processed in real-time or archived and transmitted for batch analysis. The OpenTraffic platform has a variety of <a href="https://github.com/opentraffic">open source tools</a> to help you load your GPS data from existing sources or connect to <a href="http://aws.amazon.com/kinesis/">Amazon AWS Kinesis</a> streams to manage real-time flows of any size.  </p>
-      </div>
-
-      <div class="caption-padding"></div>
-      <img class="data-image" src="/img/traffic_engine.png"/>
-      <div class="data-caption"><h3>Traffic Engine</h3>
-        <p>GPS data is linked to the OpenStreetMap network via Traffic Engine. Data is converted from GPS locations to roadway speed observations and anonymized before being aggregated. As open source software, you control where Traffic Engine is deployed, allowing full control over GPS trace data. Simply install Traffic Engine and load your GPS data to start generating traffic data.</p>
-      </div>
-
-      <div class="caption-padding"></div>
-      <img class="data-image" src="/img/open_traffic.png"/>
-      <div class="data-caption"><h3>Data Pool</h3>
-        <p>Once anonymized, traffic statistics are added to the global OpenTraffic data pool. By pooling data many different data sources are merged together to provide a seamless global data set, free for use by any application.</p>
-      </div>
+    <div class="caption-padding"></div>
+    <img class="data-image" src="/img/open_traffic.png"/>
+    <div class="data-caption"><h3>Data Pool</h3>
+      <p>Once anonymized, traffic statistics are added to the global OpenTraffic data pool. By pooling data many different data sources are merged together to provide a seamless global data set, free for use by any application.</p>
+    </div>
 
 
-      <div class="caption-padding"></div>
+    <div class="caption-padding"></div>
 
-      <h2>Get Involved</h2>
+    <h2>Get Involved</h2>
 
-      <p>We are working with vehicle fleet operators, app developers, and governments to develop and operate the OpenTraffic platform. Learn how you can contribute and benefit:</p>
+    <p>We are working with vehicle fleet operators, app developers, and governments to develop and operate the OpenTraffic platform. Learn how you can contribute and benefit:</p>
+  </p>
+
+     <div class="caption-padding"></div>
+
+
+    <img class="data-image" src="/img/open_street_map.png"/>
+    <div class="data-caption"><h3>Do you need traffic data for your application?<h3>
+
+      <p>Start building applications that utilize the global OpenTraffic data set. Historical and real-time travel speeds enable accurate routing, estimated time of arrival and other transport analysis and planning applications.</p>
+
+
+      <button class="btn btn-green" type="button" href="mailto:info@opentraffic.io">Contact Us</button>
+    </div>
+
+
+           <div class="caption-padding"></div>
+
+
+     <img class="data-image" src="/img/truck.png"/>
+
+    <div class="data-caption"><h3>Do you collect traffic or location data?<h3>
+      <p> Join our community of data contributors sharing  anonymized traffic stastics using <a class="links" href="##bottom of page##">Traffic Engine</a>. You'll benefit from combining your data with sources to create a more complete and current data set.  In addition to using this data in your own applications you'll be improving the global data pool and help improve transport outcomes in your community.</p>
+      <button class="btn btn-green" type="button" href="mailto:info@opentraffic.io">Contact Us</button>
+    </div>
+
+           <div class="caption-padding"></div>
+
+
+    <img class="data-image" src="/img/city.png"/>
+    <div class="data-caption"><h3>Do you need traffic data for your city?<h3>
+
+      <p> Use traffic data to help inform transportation planning decisions in your community. OpenTraffic's analysis appliations allows users to query real-time and historical traffic conditions and monitor roadway conditions.</p>
+      <button class="btn btn-green" type="button" href="mailto:info@opentraffic.io">Contact Us</button>
+    </div>
+
+    <div class="caption-padding"></div>
+
+    <a name="about"></a>
+    <h2>About OpenTraffic</h2>
+
+    <p>OpenTraffic, forming as a nonprofit organization, is coordinating open source software development and data collection by individuals and organizations across the transport sector.</p>
+
+
+    <div class="caption-padding"></div>
+
+    <h4>Founding Members</h4>
+    <p>
+      <a href="http://worldbank.org/"><img src="img/logos/wbg.png" style="padding:15px; height: 70px;"/></a><br/>
+      <a href="http://conveyal.com/"><img src="img/logos/conveyal.png" style="padding:15px; height: 70px;"/></a>
+      <a href="http://mapbox.com/"><img src="img/logos/mapbox.png" style="padding:15px; height: 60px;"/></a>
+      <a href="http://mapzen.com/"><img src="img/logos/mapzen.png" style="padding:15px; height: 75px;"/></a>
     </p>
 
-       <div class="caption-padding"></div>
+    <p><em>Special thanks to <a href="http://linkedin.com/in/benrichardsonvc">Ben Richardson</a> for the generous donation of the project domain name.</em></p>
 
 
-      <img class="data-image" src="/img/open_street_map.png"/>
-      <div class="data-caption"><h3>Do you need traffic data for your application?<h3>
+    <div class="caption-padding"></div>
 
-        <p>Start building applications that utilize the global OpenTraffic data set. Historical and real-time travel speeds enable accurate routing, estimated time of arrival and other transport analysis and planning applications.</p>
+   </div>
 
+    <footer>
+    <br><br><br>
+    &copy; 2015 OpenTraffic</footer>
 
-        <button class="btn btn-green" type="button" href="mailto:info@opentraffic.io">Contact Us</button>
-      </div>
-
-
-             <div class="caption-padding"></div>
-
-
-       <img class="data-image" src="/img/truck.png"/>
-
-      <div class="data-caption"><h3>Do you collect traffic or location data?<h3>
-        <p> Join our community of data contributors sharing  anonymized traffic stastics using <a class="links" href="##bottom of page##">Traffic Engine</a>. You'll benefit from combining your data with sources to create a more complete and current data set.  In addition to using this data in your own applications you'll be improving the global data pool and help improve transport outcomes in your community.</p>
-        <button class="btn btn-green" type="button" href="mailto:info@opentraffic.io">Contact Us</button>
-      </div>
-
-             <div class="caption-padding"></div>
-
-
-      <img class="data-image" src="/img/city.png"/>
-      <div class="data-caption"><h3>Do you need traffic data for your city?<h3>
-
-        <p> Use traffic data to help inform transportation planning decisions in your community. OpenTraffic's analysis appliations allows users to query real-time and historical traffic conditions and monitor roadway conditions.</p>
-        <button class="btn btn-green" type="button" href="mailto:info@opentraffic.io">Contact Us</button>
-      </div>
-
-      <div class="caption-padding"></div>
-
-      <a name="about"></a>
-      <h2>About OpenTraffic</h2>
-
-      <p>OpenTraffic, forming as a nonprofit organization, is coordinating open source software development and data collection by individuals and organizations across the transport sector.</p>
-
-
-      <div class="caption-padding"></div>
-
-      <h4>Founding Members</h4>
-      <p>
-        <a href="http://worldbank.org/"><img src="img/logos/wbg.png" style="padding:15px; height: 70px;"/></a><br/>
-        <a href="http://conveyal.com/"><img src="img/logos/conveyal.png" style="padding:15px; height: 70px;"/></a>
-        <a href="http://mapbox.com/"><img src="img/logos/mapbox.png" style="padding:15px; height: 60px;"/></a>
-        <a href="http://mapzen.com/"><img src="img/logos/mapzen.png" style="padding:15px; height: 75px;"/></a>
-      </p>
-
-      <p><em>Special thanks to <a href="http://linkedin.com/in/benrichardsonvc">Ben Richardson</a> for the generous donation of the project domain name.</em></p>
-
-
-      <div class="caption-padding"></div>
-
-     </div>
-
-      <footer>
-      <br><br><br>
-      &copy; 2015 OpenTraffic</footer>
-
-    </div>
-
-  </body>
-  </html>
+  </div>
+</body>
+</html>
